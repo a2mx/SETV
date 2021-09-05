@@ -90,6 +90,12 @@ export DISPLAY=:0
 MESA_GL_VERSION_OVERRIDE=3.3 obs
 ```
 
+- Connect to Raspberry PI with SSH and run execute setv.py
+
+```
+python3 setv.py
+```
+
 
 **CONGRATULATIONS!!!**  
 You can start to configure your scenes and collect victims like in Hollywood!!
