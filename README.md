@@ -93,7 +93,7 @@ MESA_GL_VERSION_OVERRIDE=3.3 obs
 - Connect to Raspberry PI with SSH and run setv.py
 
 ```
-python3 setv.py
+root@raspberrypi:/home/pi/Documents# python3 setv.py
 ```
 
 
