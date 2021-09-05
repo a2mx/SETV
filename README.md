@@ -109,7 +109,7 @@ In folder examples you can edit templates in gimp format
 *NETFLIX SPOOFING*
 ![Netflix-full](https://user-images.githubusercontent.com/20798626/132144516-a660e954-0521-4548-8356-40c05706b4a3.png)
 
-*News Hoax*
+*CNN HOAX*
 ![noticiero-hoax](https://user-images.githubusercontent.com/20798626/132144550-5b9e83c6-9eba-49c5-b0f2-406306760150.png)
 
 
