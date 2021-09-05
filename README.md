@@ -102,4 +102,7 @@ You can start to configure your scenes and collect victims like in Hollywood!!
 
 
 
+**EXAMPLES**
+In folder examples you can edit templates in gimp format
+
 
