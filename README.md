@@ -65,7 +65,7 @@ password = "changeme"*
 
 - reboot with capture card connected in USB 3 Port.
 
-**CAPTURE CARD DETECTION**
+**CAPTURE CARD AND AUDIO DETECTION**
 
 - Use list all display and capture cards
 
@@ -73,6 +73,27 @@ password = "changeme"*
 v4l2-ctl --list-devices
 ```
 
+![capturescard](https://user-images.githubusercontent.com/20798626/132143792-be183013-6c3a-4c3f-8e66-27a0416e9440.PNG)
+
+it detects /dev/video0
+
+- In Raspbian OS with vnc session select audio input Digital Stereo that match with hdmi capture card.
+
+![audio}conf](https://user-images.githubusercontent.com/20798626/132143951-07ac542a-7b7f-4d31-ab9c-a49bb65f4dc7.PNG)
 
 
-**IN PROGRESS*
+- in CLI change v4l2 configuration and run OBS
+
+```
+v4l2-ctl --set-fmt-video=width=1280,height=720
+export DISPLAY=:0
+MESA_GL_VERSION_OVERRIDE=3.3 obs
+```
+
+
+**CONGRATULATIONS!!!**  
+You can start to configure your scenes and collect victims like in Hollywood!!
+
+
+
+
